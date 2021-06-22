@@ -1,1 +1,23 @@
- 
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    list-style-type: none;
+} 
+
+header {
+  background: radial-gradient(circle, rgba(76,5,231,1) 8%, rgba(70,168,252,1) 92%);
+}
+h1 {
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  color: #7fe6fb;
+  padding: 15px;
+}
+
