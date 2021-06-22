@@ -1,23 +1,81 @@
-*, 
+*,
 *:after,
 *:before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
-body{
-    font-size: 100%;
-    list-style-type: none;
-} 
+body {
+  font-size: 10px;
+  list-style-type: none;
+  height: 100%;
+  background: rgba(12, 3, 29, 1);
+}
 
 header {
-  background: radial-gradient(circle, rgba(76,5,231,1) 8%, rgba(70,168,252,1) 92%);
+  background: radial-gradient(
+    circle,
+    rgba(109, 34, 195, 1) 14%,
+    rgba(12, 3, 29, 1) 80%
+  );
 }
 h1 {
-  font-family: 'Righteous', cursive;
+  font-size: 3rem;
+  font-family: "Righteous", cursive;
   text-align: center;
-  color: #7fe6fb;
+  color: #ffffff;
   padding: 15px;
+  letter-spacing: 4px;
 }
 
+.main__container {
+  margin-top: 50px;
+  margin-inline: auto;
+  width: 400px;
+
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(109, 34, 195, 0.7);
+}
+
+.movie-list__box {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+
+.movie-list__box input:focus{
+  outline: none;
+  border: 2px solid #AA2EE6;
+}
+.movie-list__box input {
+  width: 280px;
+  height: 40px;
+  
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: black;
+  padding: 12px;
+  position: relative;
+  border: 2px solid rgba(109, 34, 195, 1);
+}
+
+.add-icon {
+  width: 60px;
+  height: 40px;
+  border-radius: 5px;
+  letter-spacing: 1.5px;
+  font-family: "Righteous", cursive;
+  font-weight: 500;
+  font-size: 1.1rem;
+  background-color:rgba(109, 34, 195, 1) ;
+  color: #ffff;
+  cursor: pointer;
+  border: none;
+}
+
+.add-icon:hover{
+  background-color:#AA2EE6 ;
+}
