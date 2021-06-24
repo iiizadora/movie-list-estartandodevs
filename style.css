@@ -32,27 +32,27 @@ h1 {
 .main__container {
   margin-top: 50px;
   margin-inline: auto;
-  width: 400px;
+  width: 500px;
+}
 
+.movie-list__box,
+.namemovie-task {
   background: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 20px;
+
   border-radius: 5px;
   box-shadow: 0 10px 30px rgba(109, 34, 195, 0.7);
 }
 
-.movie-list__box {
-  display: flex;
-  justify-content: space-between;
-  padding: 15px 20px;
-}
-
-.movie-list__box input:focus{
+.movie-list__box input:focus {
   outline: none;
-  border: 2px solid #AA2EE6;
+  border: 2px solid #aa2ee6;
 }
 .movie-list__box input {
   width: 280px;
   height: 40px;
-  
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 0.8rem;
@@ -63,19 +63,41 @@ h1 {
 }
 
 .add-icon {
-  width: 60px;
-  height: 40px;
   border-radius: 5px;
   letter-spacing: 1.5px;
   font-family: "Righteous", cursive;
   font-weight: 500;
   font-size: 1.1rem;
-  background-color:rgba(109, 34, 195, 1) ;
+  background-color: rgba(109, 34, 195, 1);
   color: #ffff;
   cursor: pointer;
   border: none;
 }
 
-.add-icon:hover{
-  background-color:#AA2EE6 ;
+#btn {
+  width: 60px;
 }
+#btn-delete {
+  width: 80px;
+}
+.add-icon:hover {
+  background-color: #aa2ee6;
+}
+
+.movie-list__tasks {
+  margin-top: 50px;
+}
+
+.namemovie-task {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: black;
+  padding: 12px;
+
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(109, 34, 195, 0.7);
+}
+
+
